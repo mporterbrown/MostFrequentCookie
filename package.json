@@ -1,3 +1,24 @@
 {
-    "type": "module"
+  "type": "module",
+  "name": "quantcast_coding_exercise",
+  "version": "1.0.0",
+  "main": "dateMethods.js",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mporterbrown/quantcast_coding_exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mporterbrown/quantcast_coding_exercise/issues"
+  },
+  "homepage": "https://github.com/mporterbrown/quantcast_coding_exercise#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
 }
